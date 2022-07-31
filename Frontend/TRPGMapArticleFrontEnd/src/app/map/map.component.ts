@@ -26,7 +26,7 @@ export class MapComponent implements OnInit , AfterViewInit {
       minZoom: -2,
       maxZoom: 2,
       zoomSnap: 0.1,
-      zoom: 0
+      zoom: -2
     });
 
     var imageUrl = '/assets/sigmi_coloured.png',
