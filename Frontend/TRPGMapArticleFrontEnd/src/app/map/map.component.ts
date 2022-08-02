@@ -32,6 +32,7 @@ export class MapComponent implements OnInit , AfterViewInit {
     var imageUrl = '/assets/sigmi_coloured.png',
     imageBounds: L.LatLngBounds = new L.LatLngBounds(new L.LatLng(0, 0),new L.LatLng(3500, 3200) ) //1680, 1536
     L.imageOverlay(imageUrl, imageBounds).addTo(this.map);
+    var marker = L.marker([250.0, 735.0]).addTo(this.map);
   }
   
 
